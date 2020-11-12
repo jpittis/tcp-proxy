@@ -1,0 +1,9 @@
+[package]
+name    = "naive-tcp-proxy-rs"
+version = "0.1.0"
+authors = ["Jake Pittis <jakepittis@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tokio   = { version = "0.3", features = ["full"] }
+futures = "0.3.8"
